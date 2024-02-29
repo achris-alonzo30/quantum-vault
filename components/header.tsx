@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { 
-    OrganizationSwitcher, 
-    UserButton,
+import {
     SignedIn,
     SignedOut,
-    SignInButton,  
+    UserButton,
+    SignInButton,
+    OrganizationSwitcher,
 } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 

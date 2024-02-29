@@ -4,6 +4,7 @@ import { defineSchema, defineTable } from "convex/server";
 export default defineSchema({
     files: defineTable({
         name: v.string(),
+        fileId: v.string(),
         orgId: v.optional(v.string()),
     }).index("by_orgId", ["orgId"]),
 
